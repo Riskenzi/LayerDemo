@@ -18,6 +18,7 @@ class ButtonRegisterCell: UITableViewCell {
         buttonRegOut.setTitle("REGISTER", for: .normal)
         buttonRegOut.setTitleColor(.buttonColorText, for: .normal)
         buttonRegOut.titleLabel?.font = UIFont.poppinsRegular(20)
+        buttonRegOut.makeRoundButton(4)
         // Initialization code
     }
 
