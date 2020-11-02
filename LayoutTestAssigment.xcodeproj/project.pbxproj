@@ -54,6 +54,9 @@
 		585FF66925503B3B00B07A7E /* YearsListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF66825503B3B00B07A7E /* YearsListHeaderView.xib */; };
 		585FF671255040FD00B07A7E /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF66F255040FC00B07A7E /* ListCell.swift */; };
 		585FF672255040FD00B07A7E /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF670255040FC00B07A7E /* ListCell.xib */; };
+		585FF678255052DF00B07A7E /* TotalUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF676255052DF00B07A7E /* TotalUserCell.swift */; };
+		585FF679255052DF00B07A7E /* TotalUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF677255052DF00B07A7E /* TotalUserCell.xib */; };
+		585FF67D255055A800B07A7E /* TotalUserDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF67C255055A800B07A7E /* TotalUserDatasource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +109,9 @@
 		585FF66825503B3B00B07A7E /* YearsListHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YearsListHeaderView.xib; sourceTree = "<group>"; };
 		585FF66F255040FC00B07A7E /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		585FF670255040FC00B07A7E /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		585FF676255052DF00B07A7E /* TotalUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalUserCell.swift; sourceTree = "<group>"; };
+		585FF677255052DF00B07A7E /* TotalUserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TotalUserCell.xib; sourceTree = "<group>"; };
+		585FF67C255055A800B07A7E /* TotalUserDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalUserDatasource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,8 +246,8 @@
 		585FF620254EFCE500B07A7E /* Total User */ = {
 			isa = PBXGroup;
 			children = (
-				585FF632254FFFA500B07A7E /* TotalUserController.swift */,
-				585FF633254FFFA500B07A7E /* TotalUserController.xib */,
+				585FF6752550526C00B07A7E /* controller */,
+				585FF6742550526100B07A7E /* Cell */,
 			);
 			path = "Total User";
 			sourceTree = "<group>";
@@ -342,6 +348,25 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		585FF6742550526100B07A7E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				585FF676255052DF00B07A7E /* TotalUserCell.swift */,
+				585FF677255052DF00B07A7E /* TotalUserCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		585FF6752550526C00B07A7E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				585FF632254FFFA500B07A7E /* TotalUserController.swift */,
+				585FF67C255055A800B07A7E /* TotalUserDatasource.swift */,
+				585FF633254FFFA500B07A7E /* TotalUserController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -410,6 +435,7 @@
 				585FF63B2550022800B07A7E /* CardCollectionCell.xib in Resources */,
 				585FF5FB254ED12900B07A7E /* LogoCell.xib in Resources */,
 				585FF624254EFD0800B07A7E /* DashboardController.xib in Resources */,
+				585FF679255052DF00B07A7E /* TotalUserCell.xib in Resources */,
 				585FF65025501E3F00B07A7E /* YearsCell.xib in Resources */,
 				585FF635254FFFA500B07A7E /* TotalUserController.xib in Resources */,
 				585FF5CF254EC0C600B07A7E /* Main.storyboard in Resources */,
@@ -430,6 +456,7 @@
 				585FF5DF254EC1C600B07A7E /* RegisterController.swift in Sources */,
 				585FF615254EE90300B07A7E /* Extension + UIButton.swift in Sources */,
 				585FF5F5254ECC1100B07A7E /* Extension + TableView.swift in Sources */,
+				585FF678255052DF00B07A7E /* TotalUserCell.swift in Sources */,
 				585FF5CC254EC0C600B07A7E /* ViewController.swift in Sources */,
 				585FF62E254F197200B07A7E /* StatisticCell.swift in Sources */,
 				585FF5C8254EC0C600B07A7E /* AppDelegate.swift in Sources */,
@@ -445,6 +472,7 @@
 				585FF5FE254ED48900B07A7E /* Navigation.swift in Sources */,
 				585FF64725500B9900B07A7E /* Extension + CollectionView.swift in Sources */,
 				585FF6612550385800B07A7E /* YearsListCell.swift in Sources */,
+				585FF67D255055A800B07A7E /* TotalUserDatasource.swift in Sources */,
 				585FF5E5254EC71700B07A7E /* TextFieldCell.swift in Sources */,
 				585FF623254EFD0800B07A7E /* DashboardController.swift in Sources */,
 				585FF5FA254ED12900B07A7E /* LogoCell.swift in Sources */,

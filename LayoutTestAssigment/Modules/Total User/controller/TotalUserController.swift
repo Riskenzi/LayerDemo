@@ -9,11 +9,24 @@ import UIKit
 
 class TotalUserController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    
+    lazy var delegate: TotalUserDatasource = {
+        return .init(self)
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .mainBackgroundColor
         setupNavigationBar()
+        initTableView()
         // Do any additional setup after loading the view.
+    }
+    
+    func initTableView() -> Void {
+        _ = self.delegate
     }
     
     private func setupNavigationBar() {

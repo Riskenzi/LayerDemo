@@ -28,6 +28,8 @@ class RegisterDatasource: NSObject {
         controller.tableView?.separatorStyle = .none
         controller.tableView?.delegate = self
         controller.tableView?.dataSource = self
+        controller.tableView.showsHorizontalScrollIndicator = false
+        controller.tableView.showsVerticalScrollIndicator = false
     }
 
 

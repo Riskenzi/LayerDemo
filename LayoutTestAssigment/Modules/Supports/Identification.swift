@@ -18,6 +18,8 @@ extension UINib {
     static public let YearsListCell = "YearsListCell"
     static public let ListCell = "ListCell"
     
+    static public let TotalUserCell = "TotalUserCell"
+    
     //MARK: - Header
     static public let YearsListHeaderView = "YearsListHeaderView"
     

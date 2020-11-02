@@ -48,7 +48,7 @@ class CircularProgressBar: UIView {
     public var lineFinishColor: UIColor = .green
     
     
-    public func setProgress(to progressConstant: Double, withAnimation: Bool) {
+    public func setProgress(to progressConstant: Double, withAnimation: Bool,users: String? = nil) {
         
         var progress: Double {
             get {
