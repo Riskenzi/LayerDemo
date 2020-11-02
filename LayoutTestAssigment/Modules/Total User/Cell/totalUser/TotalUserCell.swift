@@ -21,7 +21,9 @@ class TotalUserCell: UITableViewCell {
     
     @IBOutlet weak var descLable: UILabel!
     
-
+    
+    
+    @IBOutlet weak var cellView: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -72,11 +74,18 @@ class TotalUserCell: UITableViewCell {
     }
     
     private func setupAppearances() {
-        contentView.backgroundColor = .collectionCellBackground
-        contentView.layer.cornerRadius = 10.0
-        contentView.layer.borderWidth = 4.0
-        contentView.layer.borderColor = UIColor.mainBackgroundColor.cgColor
+
+        self.cellView.layer.borderWidth = 1
+        self.cellView.layer.cornerRadius = 12
+        self.cellView.layer.borderColor = UIColor.clear.cgColor
+        self.cellView.layer.masksToBounds = true
+        self.cellView.layer.backgroundColor = UIColor.collectionCellBackground.cgColor
+        self.cellView.backgroundColor = .collectionCellBackground
+        self.contentView.backgroundColor = .mainBackgroundColor
+        
     }
+    
+  
     
     private func setupProgressCircle(){
 
