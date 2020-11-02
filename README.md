@@ -1,5 +1,5 @@
 # LayerDemo
 
-use Storyboard + Xib
-no have Pods
-have custom UI
+use Storyboard + Xib,
+no have Pods,
+have custom UI,
