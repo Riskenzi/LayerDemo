@@ -159,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				585FF5DC254EC1A600B07A7E /* Modules */,
+				585FF5EE254ECAB500B07A7E /* Supports */,
 				585FF5C7254EC0C600B07A7E /* AppDelegate.swift */,
 				585FF5C9254EC0C600B07A7E /* SceneDelegate.swift */,
 				585FF5CB254EC0C600B07A7E /* ViewController.swift */,
@@ -174,10 +175,9 @@
 		585FF5DC254EC1A600B07A7E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				585FF620254EFCE500B07A7E /* Total User */,
-				585FF61F254EFCDD00B07A7E /* Dashboard */,
 				585FF605254EE5BA00B07A7E /* Register */,
-				585FF5EE254ECAB500B07A7E /* Supports */,
+				585FF61F254EFCDD00B07A7E /* Dashboard */,
+				585FF620254EFCE500B07A7E /* Total User */,
 			);
 			path = Modules;
 			sourceTree = "<group>";

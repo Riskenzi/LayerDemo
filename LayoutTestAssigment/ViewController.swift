@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var OneButton: UIButton!
+    
+    @IBOutlet weak var TwoButton: UIButton!
+    
+    @IBOutlet weak var ThreeButton: UIButton!
+    
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .mainBackgroundColor
+        
+        OneButton.makeRoundButton(18)
+        TwoButton.makeRoundButton(18)
+        ThreeButton.makeRoundButton(18)
         // Do any additional setup after loading the view.
     }
     

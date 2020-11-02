@@ -17,8 +17,19 @@ class RegisterController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
         initTableView()
         // Do any additional setup after loading the view.
+    }
+    
+    private func setupNavigationBar() {
+        let menuButton = UIBarButtonItem(image: UIImage(named: "back_button"), style: .plain, target: self, action: #selector(back(sender:)))
+        menuButton.tintColor = .white
+        self.navigationItem.leftBarButtonItems = [menuButton]
+    }
+    
+    @objc func back(sender: UIBarButtonItem) {
+        self.navigationController?.popViewController(animated:true)
     }
     
     

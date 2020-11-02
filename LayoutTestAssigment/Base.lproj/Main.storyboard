@@ -69,6 +69,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Zb8-nr-Eht"/>
+                    <connections>
+                        <outlet property="OneButton" destination="z9z-wy-k4p" id="BPC-dw-nm8"/>
+                        <outlet property="ThreeButton" destination="kqf-cw-xh2" id="m95-GY-Rtb"/>
+                        <outlet property="TwoButton" destination="TY2-BA-AU8" id="vOu-6G-sco"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
