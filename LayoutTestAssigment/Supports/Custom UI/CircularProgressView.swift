@@ -41,6 +41,8 @@ class CircularProgressBar: UIView {
         }
     }
     
+    public var addLableSupport: Bool = false 
+    
     public var wholeCircleAnimationDuration: Double = 2
     
     public var lineBackgroundColor: UIColor = .gray
@@ -140,19 +142,18 @@ class CircularProgressBar: UIView {
     }
     
     private func makeLabel(withText text: String) -> UILabel {
-        let label = UILabel(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
+        let label = UILabel(frame: CGRect(x: 50, y: 72, width: 0, height: 0))
         label.text = text
         label.font = UIFont.poppinsRegular(10)
         label.textColor = .white
         label.sizeToFit()
-        label.center = pathCenter
         return label
     }
     
     private func configLabel(){
         label.sizeToFit()
         label.center = pathCenter
-        label.font = UIFont.poppinsRegular(10)
+        label.font = UIFont.poppinsRegular(20)
         label.textColor = .white
     }
     
@@ -170,7 +171,12 @@ class CircularProgressBar: UIView {
     private func setupView() {
         makeBar()
         self.addSubview(label)
+        if addLableSupport {
+            self.addSubview(makeLabel(withText: "User"))
+        }
     }
+    
+
     
     
     

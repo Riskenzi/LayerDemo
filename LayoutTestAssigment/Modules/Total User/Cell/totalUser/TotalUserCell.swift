@@ -88,7 +88,8 @@ class TotalUserCell: UITableViewCell {
   
     
     private func setupProgressCircle(){
-
+        
+        progressView.addLableSupport = true
         progressView.safePercent = 100
         
         progressView.lineColor = .progressValueColor
