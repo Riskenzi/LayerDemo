@@ -37,5 +37,11 @@ extension UIColor {
     static public let textFieldTextColor : UIColor = UIColor.white
     static public let buttonBackgroudColor : UIColor = UIColor.init(hex: "#1F8EF1")!
     static public let buttonColorText : UIColor = UIColor.white
+    
+    //MARK: - Dashboard
+    static public let collectionCellBackground: UIColor = UIColor.init(hex: "#383B50")!
+    static public let progressValueColor: UIColor = UIColor.init(hex: "#1F8EF1")!
+    static public let progressZeroColor: UIColor = UIColor.init(hex: "#45475C")!
+    //#1F8EF1
 }
 

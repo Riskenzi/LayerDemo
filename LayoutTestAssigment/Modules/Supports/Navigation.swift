@@ -47,4 +47,20 @@ class Navigation: NSObject {
             navigationController.show(controller, sender: nil)
         }
     }
+    
+    static func navigateTwoScreen(in navigationController: UINavigationController) -> Void {
+        DispatchQueue.main.async {
+            let controller = DashboardController(nibName: UINib.Dashboard, bundle: nil)
+            controller.modalPresentationStyle = .fullScreen
+            navigationController.show(controller, sender: nil)
+        }
+    }
+    
+    static func navigateThreeScreen(in navigationController: UINavigationController) -> Void {
+        DispatchQueue.main.async {
+            let controller = TotalUserController(nibName: UINib.TotalUser, bundle: nil)
+            controller.modalPresentationStyle = .fullScreen
+            navigationController.show(controller, sender: nil)
+        }
+    }
 }

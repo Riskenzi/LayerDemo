@@ -32,6 +32,28 @@
 		585FF615254EE90300B07A7E /* Extension + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF614254EE90300B07A7E /* Extension + UIButton.swift */; };
 		585FF618254EEE1700B07A7E /* Extension + UILable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF617254EEE1700B07A7E /* Extension + UILable.swift */; };
 		585FF61B254EF9F200B07A7E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 585FF61A254EF9F200B07A7E /* Poppins-Bold.ttf */; };
+		585FF623254EFD0800B07A7E /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF621254EFD0800B07A7E /* DashboardController.swift */; };
+		585FF624254EFD0800B07A7E /* DashboardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF622254EFD0800B07A7E /* DashboardController.xib */; };
+		585FF629254F163800B07A7E /* DashboardDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF628254F163800B07A7E /* DashboardDatasource.swift */; };
+		585FF62E254F197200B07A7E /* StatisticCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF62C254F197200B07A7E /* StatisticCell.swift */; };
+		585FF62F254F197200B07A7E /* StatisticCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF62D254F197200B07A7E /* StatisticCell.xib */; };
+		585FF634254FFFA500B07A7E /* TotalUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF632254FFFA500B07A7E /* TotalUserController.swift */; };
+		585FF635254FFFA500B07A7E /* TotalUserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF633254FFFA500B07A7E /* TotalUserController.xib */; };
+		585FF63A2550022800B07A7E /* CardCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF6382550022800B07A7E /* CardCollectionCell.swift */; };
+		585FF63B2550022800B07A7E /* CardCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF6392550022800B07A7E /* CardCollectionCell.xib */; };
+		585FF63E255005F800B07A7E /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF63D255005F800B07A7E /* CircularProgressView.swift */; };
+		585FF64725500B9900B07A7E /* Extension + CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF64625500B9900B07A7E /* Extension + CollectionView.swift */; };
+		585FF64F25501E3F00B07A7E /* YearsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF64D25501E3F00B07A7E /* YearsCell.swift */; };
+		585FF65025501E3F00B07A7E /* YearsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF64E25501E3F00B07A7E /* YearsCell.xib */; };
+		585FF65625501FBF00B07A7E /* YearsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF65425501FBF00B07A7E /* YearsCollectionCell.swift */; };
+		585FF65725501FBF00B07A7E /* YearsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF65525501FBF00B07A7E /* YearsCollectionCell.xib */; };
+		585FF65C255022DD00B07A7E /* VerticalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF65B255022DD00B07A7E /* VerticalProgressView.swift */; };
+		585FF6612550385800B07A7E /* YearsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF65F2550385800B07A7E /* YearsListCell.swift */; };
+		585FF6622550385800B07A7E /* YearsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF6602550385800B07A7E /* YearsListCell.xib */; };
+		585FF66625503B2800B07A7E /* YearsListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF66525503B2800B07A7E /* YearsListHeaderView.swift */; };
+		585FF66925503B3B00B07A7E /* YearsListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF66825503B3B00B07A7E /* YearsListHeaderView.xib */; };
+		585FF671255040FD00B07A7E /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF66F255040FC00B07A7E /* ListCell.swift */; };
+		585FF672255040FD00B07A7E /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF670255040FC00B07A7E /* ListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +84,28 @@
 		585FF614254EE90300B07A7E /* Extension + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIButton.swift"; sourceTree = "<group>"; };
 		585FF617254EEE1700B07A7E /* Extension + UILable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UILable.swift"; sourceTree = "<group>"; };
 		585FF61A254EF9F200B07A7E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		585FF621254EFD0800B07A7E /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		585FF622254EFD0800B07A7E /* DashboardController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardController.xib; sourceTree = "<group>"; };
+		585FF628254F163800B07A7E /* DashboardDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDatasource.swift; sourceTree = "<group>"; };
+		585FF62C254F197200B07A7E /* StatisticCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCell.swift; sourceTree = "<group>"; };
+		585FF62D254F197200B07A7E /* StatisticCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticCell.xib; sourceTree = "<group>"; };
+		585FF632254FFFA500B07A7E /* TotalUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalUserController.swift; sourceTree = "<group>"; };
+		585FF633254FFFA500B07A7E /* TotalUserController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TotalUserController.xib; sourceTree = "<group>"; };
+		585FF6382550022800B07A7E /* CardCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionCell.swift; sourceTree = "<group>"; };
+		585FF6392550022800B07A7E /* CardCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionCell.xib; sourceTree = "<group>"; };
+		585FF63D255005F800B07A7E /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		585FF64625500B9900B07A7E /* Extension + CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + CollectionView.swift"; sourceTree = "<group>"; };
+		585FF64D25501E3F00B07A7E /* YearsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearsCell.swift; sourceTree = "<group>"; };
+		585FF64E25501E3F00B07A7E /* YearsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YearsCell.xib; sourceTree = "<group>"; };
+		585FF65425501FBF00B07A7E /* YearsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearsCollectionCell.swift; sourceTree = "<group>"; };
+		585FF65525501FBF00B07A7E /* YearsCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YearsCollectionCell.xib; sourceTree = "<group>"; };
+		585FF65B255022DD00B07A7E /* VerticalProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalProgressView.swift; sourceTree = "<group>"; };
+		585FF65F2550385800B07A7E /* YearsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearsListCell.swift; sourceTree = "<group>"; };
+		585FF6602550385800B07A7E /* YearsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YearsListCell.xib; sourceTree = "<group>"; };
+		585FF66525503B2800B07A7E /* YearsListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearsListHeaderView.swift; sourceTree = "<group>"; };
+		585FF66825503B3B00B07A7E /* YearsListHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YearsListHeaderView.xib; sourceTree = "<group>"; };
+		585FF66F255040FC00B07A7E /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		585FF670255040FC00B07A7E /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +154,10 @@
 		585FF5DC254EC1A600B07A7E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				585FF620254EFCE500B07A7E /* Total User */,
+				585FF61F254EFCDD00B07A7E /* Dashboard */,
 				585FF605254EE5BA00B07A7E /* Register */,
 				585FF5EE254ECAB500B07A7E /* Supports */,
-				585FF5E8254EC71E00B07A7E /* Cell */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -133,6 +178,7 @@
 		585FF5EE254ECAB500B07A7E /* Supports */ = {
 			isa = PBXGroup;
 			children = (
+				585FF6412550062000B07A7E /* Custom UI */,
 				585FF5F3254ECBFB00B07A7E /* Extensions */,
 				585FF5EF254ECACF00B07A7E /* Identification.swift */,
 				585FF5FD254ED48900B07A7E /* Navigation.swift */,
@@ -149,6 +195,7 @@
 				585FF611254EE88F00B07A7E /* Extension  + UIColor .swift */,
 				585FF614254EE90300B07A7E /* Extension + UIButton.swift */,
 				585FF617254EEE1700B07A7E /* Extension + UILable.swift */,
+				585FF64625500B9900B07A7E /* Extension + CollectionView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -156,9 +203,8 @@
 		585FF605254EE5BA00B07A7E /* Register */ = {
 			isa = PBXGroup;
 			children = (
-				585FF5DD254EC1C600B07A7E /* RegisterController.swift */,
-				585FF5EA254EC81700B07A7E /* RegisterDatasource.swift */,
-				585FF5DE254EC1C600B07A7E /* RegisterController.xib */,
+				585FF626254EFD9900B07A7E /* Controller */,
+				585FF5E8254EC71E00B07A7E /* Cell */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -178,6 +224,122 @@
 				585FF60B254EE79400B07A7E /* Poppins-Regular.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		585FF61F254EFCDD00B07A7E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				585FF6442550095C00B07A7E /* Controller */,
+				585FF62B254F193C00B07A7E /* StatisticCell */,
+				585FF64C25501DFC00B07A7E /* YearsCell */,
+				585FF65E2550381300B07A7E /* YearsCellList */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		585FF620254EFCE500B07A7E /* Total User */ = {
+			isa = PBXGroup;
+			children = (
+				585FF632254FFFA500B07A7E /* TotalUserController.swift */,
+				585FF633254FFFA500B07A7E /* TotalUserController.xib */,
+			);
+			path = "Total User";
+			sourceTree = "<group>";
+		};
+		585FF626254EFD9900B07A7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				585FF5DD254EC1C600B07A7E /* RegisterController.swift */,
+				585FF5EA254EC81700B07A7E /* RegisterDatasource.swift */,
+				585FF5DE254EC1C600B07A7E /* RegisterController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		585FF62B254F193C00B07A7E /* StatisticCell */ = {
+			isa = PBXGroup;
+			children = (
+				585FF637255001F100B07A7E /* CollectionCell */,
+				585FF62C254F197200B07A7E /* StatisticCell.swift */,
+				585FF62D254F197200B07A7E /* StatisticCell.xib */,
+			);
+			path = StatisticCell;
+			sourceTree = "<group>";
+		};
+		585FF637255001F100B07A7E /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				585FF6382550022800B07A7E /* CardCollectionCell.swift */,
+				585FF6392550022800B07A7E /* CardCollectionCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		585FF6412550062000B07A7E /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				585FF63D255005F800B07A7E /* CircularProgressView.swift */,
+				585FF65B255022DD00B07A7E /* VerticalProgressView.swift */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
+		585FF6442550095C00B07A7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				585FF621254EFD0800B07A7E /* DashboardController.swift */,
+				585FF628254F163800B07A7E /* DashboardDatasource.swift */,
+				585FF622254EFD0800B07A7E /* DashboardController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		585FF64C25501DFC00B07A7E /* YearsCell */ = {
+			isa = PBXGroup;
+			children = (
+				585FF65325501F9700B07A7E /* CollectionCell */,
+				585FF64D25501E3F00B07A7E /* YearsCell.swift */,
+				585FF64E25501E3F00B07A7E /* YearsCell.xib */,
+			);
+			path = YearsCell;
+			sourceTree = "<group>";
+		};
+		585FF65325501F9700B07A7E /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				585FF65425501FBF00B07A7E /* YearsCollectionCell.swift */,
+				585FF65525501FBF00B07A7E /* YearsCollectionCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		585FF65E2550381300B07A7E /* YearsCellList */ = {
+			isa = PBXGroup;
+			children = (
+				585FF66D2550408C00B07A7E /* Cell */,
+				585FF66B25503B8300B07A7E /* HeaderView */,
+				585FF65F2550385800B07A7E /* YearsListCell.swift */,
+				585FF6602550385800B07A7E /* YearsListCell.xib */,
+			);
+			path = YearsCellList;
+			sourceTree = "<group>";
+		};
+		585FF66B25503B8300B07A7E /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				585FF66525503B2800B07A7E /* YearsListHeaderView.swift */,
+				585FF66825503B3B00B07A7E /* YearsListHeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		585FF66D2550408C00B07A7E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				585FF66F255040FC00B07A7E /* ListCell.swift */,
+				585FF670255040FC00B07A7E /* ListCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,14 +400,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				585FF5E0254EC1C600B07A7E /* RegisterController.xib in Resources */,
+				585FF672255040FD00B07A7E /* ListCell.xib in Resources */,
 				585FF61B254EF9F200B07A7E /* Poppins-Bold.ttf in Resources */,
+				585FF6622550385800B07A7E /* YearsListCell.xib in Resources */,
+				585FF66925503B3B00B07A7E /* YearsListHeaderView.xib in Resources */,
 				585FF5D4254EC0CA00B07A7E /* LaunchScreen.storyboard in Resources */,
 				585FF5E6254EC71700B07A7E /* TextFieldCell.xib in Resources */,
 				585FF5D1254EC0CA00B07A7E /* Assets.xcassets in Resources */,
+				585FF63B2550022800B07A7E /* CardCollectionCell.xib in Resources */,
 				585FF5FB254ED12900B07A7E /* LogoCell.xib in Resources */,
+				585FF624254EFD0800B07A7E /* DashboardController.xib in Resources */,
+				585FF65025501E3F00B07A7E /* YearsCell.xib in Resources */,
+				585FF635254FFFA500B07A7E /* TotalUserController.xib in Resources */,
 				585FF5CF254EC0C600B07A7E /* Main.storyboard in Resources */,
 				585FF603254EE17500B07A7E /* ButtonRegisterCell.xib in Resources */,
+				585FF62F254F197200B07A7E /* StatisticCell.xib in Resources */,
 				585FF60C254EE79400B07A7E /* Poppins-Regular.ttf in Resources */,
+				585FF65725501FBF00B07A7E /* YearsCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,18 +431,31 @@
 				585FF615254EE90300B07A7E /* Extension + UIButton.swift in Sources */,
 				585FF5F5254ECC1100B07A7E /* Extension + TableView.swift in Sources */,
 				585FF5CC254EC0C600B07A7E /* ViewController.swift in Sources */,
+				585FF62E254F197200B07A7E /* StatisticCell.swift in Sources */,
 				585FF5C8254EC0C600B07A7E /* AppDelegate.swift in Sources */,
+				585FF64F25501E3F00B07A7E /* YearsCell.swift in Sources */,
+				585FF65C255022DD00B07A7E /* VerticalProgressView.swift in Sources */,
 				585FF5EB254EC81700B07A7E /* RegisterDatasource.swift in Sources */,
+				585FF671255040FD00B07A7E /* ListCell.swift in Sources */,
 				585FF612254EE88F00B07A7E /* Extension  + UIColor .swift in Sources */,
 				585FF602254EE17500B07A7E /* ButtonRegisterCell.swift in Sources */,
 				585FF5F0254ECACF00B07A7E /* Identification.swift in Sources */,
 				585FF5CA254EC0C600B07A7E /* SceneDelegate.swift in Sources */,
 				585FF618254EEE1700B07A7E /* Extension + UILable.swift in Sources */,
 				585FF5FE254ED48900B07A7E /* Navigation.swift in Sources */,
+				585FF64725500B9900B07A7E /* Extension + CollectionView.swift in Sources */,
+				585FF6612550385800B07A7E /* YearsListCell.swift in Sources */,
 				585FF5E5254EC71700B07A7E /* TextFieldCell.swift in Sources */,
+				585FF623254EFD0800B07A7E /* DashboardController.swift in Sources */,
 				585FF5FA254ED12900B07A7E /* LogoCell.swift in Sources */,
+				585FF66625503B2800B07A7E /* YearsListHeaderView.swift in Sources */,
+				585FF63A2550022800B07A7E /* CardCollectionCell.swift in Sources */,
 				585FF60F254EE82C00B07A7E /* Extension + UIFont.swift in Sources */,
+				585FF63E255005F800B07A7E /* CircularProgressView.swift in Sources */,
 				585FF608254EE6A300B07A7E /* Extension + TextField.swift in Sources */,
+				585FF65625501FBF00B07A7E /* YearsCollectionCell.swift in Sources */,
+				585FF629254F163800B07A7E /* DashboardDatasource.swift in Sources */,
+				585FF634254FFFA500B07A7E /* TotalUserController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

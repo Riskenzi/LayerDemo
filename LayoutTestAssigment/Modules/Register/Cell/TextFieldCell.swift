@@ -20,6 +20,7 @@ class TextFieldCell: UITableViewCell {
         textField.layer.cornerRadius = 4.0
         textField.layer.borderWidth = 2.0
         textField.layer.borderColor = UIColor.clear.cgColor
+        textField.textAlignment = .center
         // Initialization code
     }
 

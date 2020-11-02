@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .mainBackgroundColor
         // Do any additional setup after loading the view.
     }
     
@@ -25,9 +26,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func screenTwoTap(_ sender: Any) {
+        guard let navigation = self.navigationController else { return }
+        Navigation.navigateTwoScreen(in: navigation)
     }
     
     @IBAction func screenThreeTap(_ sender: Any) {
+        guard let navigation = self.navigationController else { return }
+        Navigation.navigateThreeScreen(in: navigation)
     }
     
     
