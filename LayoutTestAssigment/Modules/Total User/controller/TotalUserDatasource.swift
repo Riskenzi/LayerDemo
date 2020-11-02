@@ -9,6 +9,7 @@ import UIKit
 
 class TotalUserDatasource: NSObject {
     weak var controller : TotalUserController!
+ 
     // MARK: - Life cycle
     
     init(_ controller: TotalUserController) {
@@ -22,6 +23,7 @@ class TotalUserDatasource: NSObject {
         
         controller.tableView.contentInset = UIEdgeInsets(top: 41, left: 0, bottom: 0, right: 0)
         controller.tableView?.registerCellFromNib(UINib.TotalUserCell)
+        controller.tableView?.registerCellFromNib(UINib.UserChartsCell)
         controller.tableView?.separatorStyle = .none
         controller.tableView?.delegate = self
         controller.tableView?.dataSource = self
@@ -34,12 +36,14 @@ class TotalUserDatasource: NSObject {
 }
 extension TotalUserDatasource : UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        1
+        3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let totalUserCell = tableView.dequeueReusableCell(withIdentifier: UINib.TotalUserCell, for: indexPath) as! TotalUserCell
+        
+        let chartsUserCell = tableView.dequeueReusableCell(withIdentifier: UINib.UserChartsCell, for: indexPath) as! UserChartsCell
         
         switch indexPath.row {
         case 0:
@@ -48,9 +52,19 @@ extension TotalUserDatasource : UITableViewDelegate,UITableViewDataSource {
             totalUserCell.targerLable.text = "Target 2000 Users"
             totalUserCell.descLable.text = "Lorem Ipsum is simply dummy text of the print ing and type setting industry. Lorem Ipsum has been the industry's."
             return totalUserCell
+        case 1:
+            let cell = UITableViewCell()
+            cell.contentView.backgroundColor = .mainBackgroundColor
+            return cell
+        case 2:
+            return chartsUserCell
         default:
             return UITableViewCell()
         }
+    }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return .leastNormalMagnitude
     }
     
     

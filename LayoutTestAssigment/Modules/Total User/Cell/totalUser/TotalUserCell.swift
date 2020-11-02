@@ -73,9 +73,9 @@ class TotalUserCell: UITableViewCell {
     
     private func setupAppearances() {
         contentView.backgroundColor = .collectionCellBackground
-        contentView.layer.cornerRadius = 4.0
-        contentView.layer.borderWidth = 2.0
-        contentView.layer.borderColor = UIColor.clear.cgColor
+        contentView.layer.cornerRadius = 10.0
+        contentView.layer.borderWidth = 4.0
+        contentView.layer.borderColor = UIColor.mainBackgroundColor.cgColor
     }
     
     private func setupProgressCircle(){

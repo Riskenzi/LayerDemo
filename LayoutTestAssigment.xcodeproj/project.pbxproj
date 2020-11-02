@@ -57,6 +57,13 @@
 		585FF678255052DF00B07A7E /* TotalUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF676255052DF00B07A7E /* TotalUserCell.swift */; };
 		585FF679255052DF00B07A7E /* TotalUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF677255052DF00B07A7E /* TotalUserCell.xib */; };
 		585FF67D255055A800B07A7E /* TotalUserDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF67C255055A800B07A7E /* TotalUserDatasource.swift */; };
+		585FF682255061AF00B07A7E /* HeaderCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF681255061AF00B07A7E /* HeaderCharts.swift */; };
+		585FF685255061DC00B07A7E /* HeaderCharts.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF684255061DC00B07A7E /* HeaderCharts.xib */; };
+		585FF6892550644900B07A7E /* UserChartsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF6872550644900B07A7E /* UserChartsCell.swift */; };
+		585FF68A2550644900B07A7E /* UserChartsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF6882550644900B07A7E /* UserChartsCell.xib */; };
+		585FF690255066E000B07A7E /* ChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF68E255066E000B07A7E /* ChartCell.swift */; };
+		585FF691255066E000B07A7E /* ChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF68F255066E000B07A7E /* ChartCell.xib */; };
+		585FF6972550745400B07A7E /* ButtonWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF6962550745300B07A7E /* ButtonWithImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +119,13 @@
 		585FF676255052DF00B07A7E /* TotalUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalUserCell.swift; sourceTree = "<group>"; };
 		585FF677255052DF00B07A7E /* TotalUserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TotalUserCell.xib; sourceTree = "<group>"; };
 		585FF67C255055A800B07A7E /* TotalUserDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalUserDatasource.swift; sourceTree = "<group>"; };
+		585FF681255061AF00B07A7E /* HeaderCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCharts.swift; sourceTree = "<group>"; };
+		585FF684255061DC00B07A7E /* HeaderCharts.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCharts.xib; sourceTree = "<group>"; };
+		585FF6872550644900B07A7E /* UserChartsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChartsCell.swift; sourceTree = "<group>"; };
+		585FF6882550644900B07A7E /* UserChartsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserChartsCell.xib; sourceTree = "<group>"; };
+		585FF68E255066E000B07A7E /* ChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCell.swift; sourceTree = "<group>"; };
+		585FF68F255066E000B07A7E /* ChartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartCell.xib; sourceTree = "<group>"; };
+		585FF6962550745300B07A7E /* ButtonWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +300,7 @@
 			children = (
 				585FF63D255005F800B07A7E /* CircularProgressView.swift */,
 				585FF65B255022DD00B07A7E /* VerticalProgressView.swift */,
+				585FF6962550745300B07A7E /* ButtonWithImage.swift */,
 			);
 			path = "Custom UI";
 			sourceTree = "<group>";
@@ -351,8 +366,8 @@
 		585FF6742550526100B07A7E /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				585FF676255052DF00B07A7E /* TotalUserCell.swift */,
-				585FF677255052DF00B07A7E /* TotalUserCell.xib */,
+				585FF6992550884300B07A7E /* totalUser */,
+				585FF6932550690200B07A7E /* charts */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -365,6 +380,44 @@
 				585FF633254FFFA500B07A7E /* TotalUserController.xib */,
 			);
 			path = controller;
+			sourceTree = "<group>";
+		};
+		585FF680255060F800B07A7E /* header */ = {
+			isa = PBXGroup;
+			children = (
+				585FF681255061AF00B07A7E /* HeaderCharts.swift */,
+				585FF684255061DC00B07A7E /* HeaderCharts.xib */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		585FF68C2550655B00B07A7E /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				585FF68E255066E000B07A7E /* ChartCell.swift */,
+				585FF68F255066E000B07A7E /* ChartCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		585FF6932550690200B07A7E /* charts */ = {
+			isa = PBXGroup;
+			children = (
+				585FF680255060F800B07A7E /* header */,
+				585FF6872550644900B07A7E /* UserChartsCell.swift */,
+				585FF6882550644900B07A7E /* UserChartsCell.xib */,
+				585FF68C2550655B00B07A7E /* CollectionCell */,
+			);
+			path = charts;
+			sourceTree = "<group>";
+		};
+		585FF6992550884300B07A7E /* totalUser */ = {
+			isa = PBXGroup;
+			children = (
+				585FF676255052DF00B07A7E /* TotalUserCell.swift */,
+				585FF677255052DF00B07A7E /* TotalUserCell.xib */,
+			);
+			path = totalUser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,10 +491,13 @@
 				585FF679255052DF00B07A7E /* TotalUserCell.xib in Resources */,
 				585FF65025501E3F00B07A7E /* YearsCell.xib in Resources */,
 				585FF635254FFFA500B07A7E /* TotalUserController.xib in Resources */,
+				585FF691255066E000B07A7E /* ChartCell.xib in Resources */,
 				585FF5CF254EC0C600B07A7E /* Main.storyboard in Resources */,
+				585FF685255061DC00B07A7E /* HeaderCharts.xib in Resources */,
 				585FF603254EE17500B07A7E /* ButtonRegisterCell.xib in Resources */,
 				585FF62F254F197200B07A7E /* StatisticCell.xib in Resources */,
 				585FF60C254EE79400B07A7E /* Poppins-Regular.ttf in Resources */,
+				585FF68A2550644900B07A7E /* UserChartsCell.xib in Resources */,
 				585FF65725501FBF00B07A7E /* YearsCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585FF6892550644900B07A7E /* UserChartsCell.swift in Sources */,
 				585FF5DF254EC1C600B07A7E /* RegisterController.swift in Sources */,
 				585FF615254EE90300B07A7E /* Extension + UIButton.swift in Sources */,
 				585FF5F5254ECC1100B07A7E /* Extension + TableView.swift in Sources */,
@@ -460,10 +517,12 @@
 				585FF5CC254EC0C600B07A7E /* ViewController.swift in Sources */,
 				585FF62E254F197200B07A7E /* StatisticCell.swift in Sources */,
 				585FF5C8254EC0C600B07A7E /* AppDelegate.swift in Sources */,
+				585FF6972550745400B07A7E /* ButtonWithImage.swift in Sources */,
 				585FF64F25501E3F00B07A7E /* YearsCell.swift in Sources */,
 				585FF65C255022DD00B07A7E /* VerticalProgressView.swift in Sources */,
 				585FF5EB254EC81700B07A7E /* RegisterDatasource.swift in Sources */,
 				585FF671255040FD00B07A7E /* ListCell.swift in Sources */,
+				585FF690255066E000B07A7E /* ChartCell.swift in Sources */,
 				585FF612254EE88F00B07A7E /* Extension  + UIColor .swift in Sources */,
 				585FF602254EE17500B07A7E /* ButtonRegisterCell.swift in Sources */,
 				585FF5F0254ECACF00B07A7E /* Identification.swift in Sources */,
@@ -480,6 +539,7 @@
 				585FF63A2550022800B07A7E /* CardCollectionCell.swift in Sources */,
 				585FF60F254EE82C00B07A7E /* Extension + UIFont.swift in Sources */,
 				585FF63E255005F800B07A7E /* CircularProgressView.swift in Sources */,
+				585FF682255061AF00B07A7E /* HeaderCharts.swift in Sources */,
 				585FF608254EE6A300B07A7E /* Extension + TextField.swift in Sources */,
 				585FF65625501FBF00B07A7E /* YearsCollectionCell.swift in Sources */,
 				585FF629254F163800B07A7E /* DashboardDatasource.swift in Sources */,

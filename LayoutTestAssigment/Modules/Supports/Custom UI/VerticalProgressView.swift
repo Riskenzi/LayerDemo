@@ -59,7 +59,6 @@ class VerticalProgressView: UIView {
             self.progressView.frame.size.height = self.frame.size.height - yOffset
             self.progressView.frame.origin.y = yOffset
         }, completion: nil)
-
     }
   
     func setBackColor(color : UIColor) {

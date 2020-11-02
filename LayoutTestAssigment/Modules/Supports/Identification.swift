@@ -19,14 +19,18 @@ extension UINib {
     static public let ListCell = "ListCell"
     
     static public let TotalUserCell = "TotalUserCell"
+    static public let UserChartsCell = "UserChartsCell"
     
     //MARK: - Header
     static public let YearsListHeaderView = "YearsListHeaderView"
+    static public let HeaderCharts = "HeaderCharts"
     
     //MARK: - Cell Collection
     static public let CardCollectionCell = "CardCollectionCell"
     
     static public let YearsCollectionCell = "YearsCollectionCell"
+    
+    static public let ChartCell = "ChartCell"
     
     //MARK: - Controller
     static public let Register = "RegisterController"
