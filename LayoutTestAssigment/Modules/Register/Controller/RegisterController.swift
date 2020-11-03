@@ -19,6 +19,7 @@ class RegisterController: UIViewController {
         super.viewDidLoad()
         setupNavigationBar()
         initTableView()
+        hideKeyboardOnTap()
         // Do any additional setup after loading the view.
     }
     

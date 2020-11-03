@@ -64,6 +64,7 @@
 		585FF690255066E000B07A7E /* ChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF68E255066E000B07A7E /* ChartCell.swift */; };
 		585FF691255066E000B07A7E /* ChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585FF68F255066E000B07A7E /* ChartCell.xib */; };
 		585FF6972550745400B07A7E /* ButtonWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF6962550745300B07A7E /* ButtonWithImage.swift */; };
+		585FF6A025515E7D00B07A7E /* Extension +Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FF69F25515E7D00B07A7E /* Extension +Keyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,6 +127,7 @@
 		585FF68E255066E000B07A7E /* ChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCell.swift; sourceTree = "<group>"; };
 		585FF68F255066E000B07A7E /* ChartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartCell.xib; sourceTree = "<group>"; };
 		585FF6962550745300B07A7E /* ButtonWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithImage.swift; sourceTree = "<group>"; };
+		585FF69F25515E7D00B07A7E /* Extension +Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension +Keyboard.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 				585FF614254EE90300B07A7E /* Extension + UIButton.swift */,
 				585FF617254EEE1700B07A7E /* Extension + UILable.swift */,
 				585FF64625500B9900B07A7E /* Extension + CollectionView.swift */,
+				585FF69F25515E7D00B07A7E /* Extension +Keyboard.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -518,6 +521,7 @@
 				585FF62E254F197200B07A7E /* StatisticCell.swift in Sources */,
 				585FF5C8254EC0C600B07A7E /* AppDelegate.swift in Sources */,
 				585FF6972550745400B07A7E /* ButtonWithImage.swift in Sources */,
+				585FF6A025515E7D00B07A7E /* Extension +Keyboard.swift in Sources */,
 				585FF64F25501E3F00B07A7E /* YearsCell.swift in Sources */,
 				585FF65C255022DD00B07A7E /* VerticalProgressView.swift in Sources */,
 				585FF5EB254EC81700B07A7E /* RegisterDatasource.swift in Sources */,
